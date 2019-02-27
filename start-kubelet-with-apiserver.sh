@@ -1,1 +1,1 @@
-./kubelet --kubeconfig $PWD/kube-config --fail-swap-on=false
+./kubelet --kubeconfig $PWD/kube-config --fail-swap-on=false 
