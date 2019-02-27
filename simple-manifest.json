@@ -5,7 +5,6 @@
    "name": "nginx"
  },
  "spec": {
-   "nodeName": "vinod-VirtualBox",
    "serviceAccount": "default",
    "serviceAccountName": "default",
    "containers": [
