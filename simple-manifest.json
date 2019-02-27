@@ -1,0 +1,36 @@
+{
+ "apiVersion": "v1",
+ "kind": "Pod",
+ "metadata": {
+   "name": "nginx"
+ },
+ "spec": {
+   "nodeName": "vinod-VirtualBox",
+   "serviceAccount": "default",
+   "serviceAccountName": "default",
+   "containers": [
+     {
+       "name": "nginx",
+       "image": "nginx",
+       "ports": [
+         {
+         "containerPort": 80
+         }
+       ], 
+       "volumeMounts": [
+         {
+         "mountPath": "/var/log/nginx",
+         "name": "nginx-logs"
+         }
+       ]
+     }
+   ],
+   "volumes": [
+     {
+     "name": "nginx-logs",
+     "emptyDir": {}
+     }
+   ]
+ }  
+}
+
