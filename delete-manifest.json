@@ -1,6 +1,7 @@
 {
  "apiVersion": "v1",
- "kind": "Pod",
+ "kind": "DeleteOptions",
+ "gracePeriodSeconds": 2,
  "metadata": {
    "name": "nginx"
  },
