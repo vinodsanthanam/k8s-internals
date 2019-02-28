@@ -1,4 +1,6 @@
 This demo needs a Linux runtime - Tested in Ubuntu 18.06
+Use sudo su -
+create a dir called demo and download the git repo.
 
 Download the binaries needed for the demo - ./download-binaries
 
