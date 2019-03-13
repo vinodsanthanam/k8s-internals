@@ -34,3 +34,15 @@ You can access kubelet at http://localhost:10250 and the api server can be reach
 
 Send the manifest details as JSON to the api server with curl
 ./create-in-api-server
+
+
+Articles to Read
+---------------------------------------------
+http://kamalmarhubi.com/blog/2015/11/17/kubernetes-from-the-ground-up-the-scheduler/
+
+ifconfig
+route
+arp
+docker network inspect bridge
+iptables -t nat -L -v -n
+docker inspect -f {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}} $1
